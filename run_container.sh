@@ -1,0 +1,1 @@
+sudo docker run -v /etc/localtime:/etc/localtime:ro  -v /home/admin/Desktop/shared_folder:/home/shared_folder -v /home/admin/Desktop/logs:/srv/apache-tomcat-7.0.65/logs  --privileged -d -p 11529:1521 -p 18088:18080 -p 12888:12888 -p 23888:23888  --name name_process name_image
