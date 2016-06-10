@@ -1,1 +1,2 @@
-get_information_container.sh
+
+docker rm  <CONTAINER ID>
